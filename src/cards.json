@@ -2,7 +2,7 @@
     {
         "id":"1",
         "name": "Angela Martin",
-        "image":"images/Angela_Martin.jpg",
+        "image":"/public/images/Angela_Martin.jpg",
         "count":"0"
     },
     {
