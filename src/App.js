@@ -17,6 +17,7 @@ class App extends React.Component {
             id={friend.id}
             key={friend.id}
             name={friend.name}
+            image={friend.image}
           />
         ))
       }
