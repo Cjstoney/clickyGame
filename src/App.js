@@ -2,6 +2,7 @@ import React from "react";
 import OfficeCards from "./components/Cards";
 import cards from "./cards.json";
 import Wrapper from "./components/wrapper";
+import Header from "./components/Header";
 
 class App extends React.Component {
   state = {
@@ -11,6 +12,8 @@ class App extends React.Component {
   render() {
     return (
       <Wrapper>
+        <Header>Clicky Game</Header>
+        
       {
         this.state.cards.map(friend => (
           <OfficeCards
