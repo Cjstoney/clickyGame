@@ -15,6 +15,7 @@ class App extends React.Component {
         this.state.cards.map(friend => (
           <OfficeCards
             id={friend.id}
+            key={friend.id}
             name={friend.name}
           />
         ))
