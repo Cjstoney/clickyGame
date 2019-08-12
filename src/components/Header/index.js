@@ -1,14 +1,16 @@
 import React from "react";
+import "./Header.css";
 
-function Header(){
+function Header(props){
     return(
-    <div className="navBarContainer">
 
-<ul className="nav justify-content-center">
-  <li className="nav-item">
-    {/* <a className="nav-link active" href="#">Clicky Game!</a> */}
-  </li>
-  </ul>
+    <div className="navBarContainer">
+    <p >Clicky Game!</p>
+    <p >{props.score}</p>
+    <p >{props.highScore}</p>
+
+
+  
     </div>
     );
 }
