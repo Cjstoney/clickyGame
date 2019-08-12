@@ -9,6 +9,11 @@ class App extends React.Component {
     cards
   };
 
+  handleClick= id => {
+    console.log(id.target);
+  }
+
+
   render() {
     return (
       <Wrapper>
@@ -21,6 +26,7 @@ class App extends React.Component {
             key={friend.id}
             name={friend.name}
             image={friend.image}
+            handleClick= {this.handleClick}
           />
         ))
       }

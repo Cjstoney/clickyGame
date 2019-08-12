@@ -4,9 +4,9 @@ function Header(){
     return(
     <div className="navBarContainer">
 
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Clicky Game!</a>
+<ul className="nav justify-content-center">
+  <li className="nav-item">
+    {/* <a className="nav-link active" href="#">Clicky Game!</a> */}
   </li>
   </ul>
     </div>

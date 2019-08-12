@@ -1,12 +1,11 @@
 import React from "react";
 import "./style.css";
 
-function OfficeCards(props){
-    return(
-        <div className="card">
-            <div className="img-container">
-               <a id={props.id}> <img alt={props.name} src={props.image} /> </a>
-            </div>
+function OfficeCards(props) {
+    return (
+        <div className="card" onClick={() => props.handleClick(props.id)}>
+            <span id={props.id} > <img alt={props.name} src={props.image} /> </span>
+
         </div>
 
     )
