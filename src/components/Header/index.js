@@ -5,9 +5,9 @@ function Header(props){
     return(
 
     <div className="navBarContainer">
-    <p >Clicky Game!</p>
-    <p >{props.score}</p>
-    <p >{props.highScore}</p>
+    <p className="nav-text" id="title-name">Clicky Game!</p>
+    <p className="nav-text" id="current-score">{props.score}</p>
+    <p className="nav-text" id="high-score">{props.highScore}</p>
 
 
   
