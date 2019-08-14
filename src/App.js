@@ -4,28 +4,27 @@ import cards from "./cards.json";
 import Wrapper from "./components/wrapper";
 import Header from "./components/Header";
 
-var beenClicked=[]
-
 class App extends React.Component {
   state = {
     cards,
     score: 0,
-    highScore: 0
+    highScore: 0,
+    beenClicked:[]
   };
 
   handleClick= id => {
     console.log(id);
-    if(beenClicked.includes(id)){
+    if(this.state.beenClicked.includes(id)){
       alert("Game over")
       if(this.state.score > this.state.highScore){
         this.setState({
           highScore: this.state.score,
           score: 0,
-        })
-        beenClicked = [];
+          beenClicked:[]
+        }) 
       }
     }else{
-      beenClicked.push(id);
+      this.state.beenClicked.push(id);
       this.setState({score: this.state.score +1})
     }
     var clone = this.state.cards

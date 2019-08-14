@@ -1,16 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Clicky Game
 
-In the project directory, you can run:
+This is a memory game based in React.  Click as many cards as possible withou repitition. Once all of the user clicks a card twice, the user will be notified that the game is over and the score will be reset to zero. 
 
-### `npm start`
+### `Technologies Used`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* React.js
+* Create React App
+* JSX
+* Babel
 
 ### `npm test`
 
