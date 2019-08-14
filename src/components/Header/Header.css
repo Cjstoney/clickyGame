@@ -7,6 +7,7 @@
 }
 
 .nav-text{
+    font-family:'Roboto Mono', monospace;
     padding: 15px;
     color: #eeeeee;
     font-size: 40px;
