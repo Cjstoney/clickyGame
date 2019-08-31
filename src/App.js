@@ -3,6 +3,7 @@ import OfficeCards from "./components/Cards";
 import cards from "./cards.json";
 import Wrapper from "./components/wrapper";
 import Header from "./components/Header";
+import './app.css'
 
 class App extends React.Component {
   state = {
@@ -40,7 +41,7 @@ class App extends React.Component {
         score= {this.state.score}
         highScore= {this.state.highScore}
         />
-        
+        <div className="card-container">
       {
         this.state.cards.map(friend => (
           <OfficeCards
@@ -52,6 +53,7 @@ class App extends React.Component {
           />
         ))
       }
+      </div>
       </Wrapper>
     )
   }
