@@ -9,4 +9,8 @@ This is a memory game based in React.  Click as many cards as possible withou re
 * Create React App
 * JSX
 * Babel
+* HTML
+* CSS
+* Javascript
+* Node Package Manager
 
